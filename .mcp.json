@@ -1,0 +1,21 @@
+{
+	"mcpServers": {
+		"context7": {
+			"args": ["--bun", "-y", "@upstash/context7-mcp"],
+			"command": "bunx",
+			"type": "stdio"
+		},
+		"sequential-thinking": {
+			"args": [
+				"--bun",
+				"-y",
+				"@modelcontextprotocol/server-sequential-thinking"
+			],
+			"command": "bunx"
+		},
+		"package-registry": {
+			"args": ["--bun", "-y", "package-registry-mcp"],
+			"command": "bunx"
+		}
+	}
+}

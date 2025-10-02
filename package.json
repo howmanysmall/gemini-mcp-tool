@@ -63,9 +63,11 @@
     "tsx": "^4.0.0",
     "typescript": "^5.0.0",
     "vitepress": "^1.6.3",
-    "vitepress-plugin-mermaid": "^2.0.17"
+    "vitepress-plugin-mermaid": "^2.0.17",
+    "@types/bun": "latest"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "private": true
 }
